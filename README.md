@@ -4,13 +4,13 @@ Este repositorio contiene el microservicio de **Puerta de Enlace (API Gateway)**
 
 ---
 
-## 📝 Descripción
+## Descripción
 
 Punto de entrada unificado para todas las solicitudes del cliente al ecosistema, implementado con Spring Cloud Gateway. Se encarga de ruteo dinámico hacia los microservicios correspondientes y manejo de CORS.
 
 ---
 
-## 🛠️ Stack Tecnológico
+## Tech Stack
 
 *   **Lenguaje de Programación:** Java 17
 *   **Framework Principal:** Spring Boot 3
@@ -20,7 +20,7 @@ Punto de entrada unificado para todas las solicitudes del cliente al ecosistema,
 
 ---
 
-## 🚀 Guía de Ejecución Independiente
+## Guía de Ejecución
 
 Si desea arrancar este microservicio por separado para depuración o pruebas locales, siga estas instrucciones:
 
@@ -37,7 +37,7 @@ mvn spring-boot:run
 
 ---
 
-## 📖 Documentación del Servicio
+## Documentación del Servicio
 
 Este componente es un servicio interno de infraestructura (no expone APIs directas de negocio al cliente final). Su estado y métricas de salud pueden monitorearse a través de:
 *   **Eureka Registry:** `http://localhost:8761`
